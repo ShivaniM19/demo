@@ -1,3 +1,19 @@
 command:-
     echo "# creating a file using git bash and adding content in it" >>new.txt
-    # creating a file using git bash and adding content in it
+         # creating a file using git bash and adding content in it
+    cat new.txt
+    git branch -M main
+    ssh-keygen -o
+     cd
+     ls -a
+     $ cd .ssh
+     ls -a
+      cat id_ed25519.pub
+      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO0Hn8RJeG58pJ9aywSwFx94/2PkzIFG3b1tmzafy8BY Hp@DESKTOP-S668NVE
+      cd
+      cd "Desktop/practice/Git"
+      $ git remote add origin git@github.com:ShivaniM19/demo.git
+    git push -u origin main
+
+
+
