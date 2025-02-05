@@ -1,0 +1,13 @@
+commands:-
+    git --version
+    git config  
+    git config --global
+    git config --global user.name "shivani mane"
+    git config --global user.email "maneshivani2001@gmail.com"
+    git config --global --list
+    git status
+    git init
+    git add filename
+    git add -a
+    git add .
+    git add -u
