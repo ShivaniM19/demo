@@ -11,3 +11,4 @@ commands:-
     git add -a
     git add .
     git add -u
+    git commit -a -m "my third commit"
