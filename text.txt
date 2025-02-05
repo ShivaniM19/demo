@@ -8,8 +8,8 @@ commands:-
     git status
     git init
     git add filename
+    git commit -a -m "my third commit"
     git add -a
     git add .
     git add -u
-    git commit -a -m "my third commit"
     git diff 
