@@ -1,2 +1,0 @@
-username=shivani
-useremail=adbc@gmail.com

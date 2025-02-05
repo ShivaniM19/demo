@@ -1,0 +1,3 @@
+command:-
+    echo "# creating a file using git bash and adding content in it" >>new.txt
+    # creating a file using git bash and adding content in it
