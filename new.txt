@@ -34,7 +34,12 @@ clonning a repository-
 Branch in git-
      git branch
      git branch feature1
-     git checkout -b feature1
-     
+     git checkout -b feature1 or git switch -c feature1   
+     git switch main or git checkout main
+     git branch -d feature1 or git branch --delete feature1
+     git switch -
+
+If we are on feature1 branch-
+     git push origin feature1
 
 
