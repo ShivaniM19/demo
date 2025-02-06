@@ -13,3 +13,5 @@ commands:-
     git add .
     git add -u
     git diff 
+    git diff --staged
+    git rm --cached creds.txt
