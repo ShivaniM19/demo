@@ -1,19 +1,40 @@
-command:-
-    echo "# creating a file using git bash and adding content in it" >>new.txt
-         # creating a file using git bash and adding content in it
-    cat new.txt
-    git branch -M main
-    ssh-keygen -o
+creating a file using git bash and adding content in it-
+     echo "# creating a file using git bash and adding content in it" >>new.txt
+         
+     cat new.txt
+
+adding origin-
+     git branch -M main
+     ssh-keygen -o
      cd
      ls -a
      $ cd .ssh
      ls -a
-      cat id_ed25519.pub
-      ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO0Hn8RJeG58pJ9aywSwFx94/2PkzIFG3b1tmzafy8BY Hp@DESKTOP-S668NVE
-      cd
-      cd "Desktop/practice/Git"
-      $ git remote add origin git@github.com:ShivaniM19/demo.git
-    git push -u origin main
+     cat id_ed25519.pub
+     ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO0Hn8RJeG58pJ9aywSwFx94/2PkzIFG3b1tmzafy8BY Hp@DESKTOP-S668NVE
+     cd
+     cd "Desktop/practice/Git"
+     $ git remote add origin git@github.com:ShivaniM19/demo.git
+     git push -u origin main
 
+creating tag-
+     git remote -v
+     git tag
+     git tag -a v1.0 -m "version 1"
+     git push origin v1.0
+     git show v1.0
+
+clonning a repository-
+     cd
+     ls -la
+     gti clone ssh_url
+     git clone ssh_url .
+     git log --pretty=oneline
+
+Branch in git-
+     git branch
+     git branch feature1
+     git checkout -b feature1
+     
 
 
