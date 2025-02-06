@@ -55,3 +55,14 @@ use stash:-
   git stash apply
 
 conflict with merge
+
+
+git rebase -
+     1.git switch new
+     2.change in new branch 
+     3.git add . and git commit -m "message"
+     4.git switch main
+     5.change in main branch
+     6.git add . and git commit -m "message"
+     7.git rebase new
+     
