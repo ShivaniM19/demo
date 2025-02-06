@@ -47,9 +47,11 @@ delete branch from remote repository
 
 If we want ro merge new branch with main branch-
      git merge new
-    
+
 Git stash- if we are made changes in new branch and dont want to commit changes but want to switch branch
 use stash:-
   git stash
   git stash list
   git stash apply
+
+conflict with merge
