@@ -39,7 +39,12 @@ Branch in git-
      git branch -d feature1 or git branch --delete feature1
      git switch -
 
-If we are on feature1 branch-
+If we are on feature1 branch and want to push code to remote repository-
      git push origin feature1
 
+delete branch from remote repository
+     git push origin --delete <branchname>
 
+If we want ro merge new branch with main branch-
+     git merge new
+    
