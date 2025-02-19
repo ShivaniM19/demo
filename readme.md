@@ -1,7 +1,10 @@
 this is git project 
 username=shivani
 useremail=adbc@gmail.com
+<<<<<<< HEAD
 
+=======
+>>>>>>> new
 ## Merging a New Branch with Main Branch
 
 To merge a new branch into the main branch, follow these steps:
