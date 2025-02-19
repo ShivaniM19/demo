@@ -62,7 +62,8 @@ If Conflict appear during merge
      git add <file-with-conflict>
      git commit -m "Merged new-branch into main"
      git push origin main
-
+f you want to merge without creating a merge commit (fast-forward merge), you can use-
+     git merge --ff new-branch.
 To undo changes in a specific file:
      git status
      git checkout -- <file-name>
