@@ -76,4 +76,27 @@ To undo changes in all unstaged files:
          or
      git restore .
              
-     
+To merge the main branch into a new branch in Git-
+ 1. Make sure your local repository is up to date with the remote repository:
+     git checkout main
+     git pull origin main
+
+ 2. Switch to the new branch that you want to merge the main branch into.
+     git checkout new-branch
+
+ 3. Merge the main branch into your new branch:
+     git merge main
+
+ 4. Resolve Any Merge Conflicts:
+     git add <file-with-conflict>
+
+ 5. After resolving any conflicts, complete the merge by committing the changes:
+     git commit -m "Merged main into new-branch"
+
+ 6. If you want to push the updated new branch to the remote repository, you can do so with(Optional):
+     git push origin new-branch
+
+ 7. If you want to merge without creating a merge commit (fast-forward merge), you can use:
+      git merge --ff main
+ 8. If you want to keep the history of the main branch, you can use:
+     git merge --no-ff main
