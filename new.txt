@@ -62,3 +62,17 @@ If Conflict appear during merge
      git add <file-with-conflict>
      git commit -m "Merged new-branch into main"
      git push origin main
+
+To undo changes in a specific file:
+     git status
+     git checkout -- <file-name>
+              or
+     git restore <file-name>
+
+To undo changes in all unstaged files:
+     git checkout .
+     git checkout -- .
+         or
+     git restore .
+             
+     
